@@ -4,6 +4,7 @@
 }
 :root{
   --background-color-body: #09213ad7;
+  --color-text: #e4e4e4fa;
 }
 
 body {
@@ -16,7 +17,7 @@ a{
   border-radius: 1rem;
   font-weight: 800;
   border: none;
-  color: white;
+  color: var(--color-text);
   transition: all 0.3s linear;
 }
 
@@ -31,7 +32,7 @@ a{
  
   background-color: var(--background-color-body);
   border-radius: 1rem;
-  color: #fffffa;
+  color: var(--color-text);
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
