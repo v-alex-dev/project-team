@@ -1,7 +1,7 @@
 /* -------- FOOTER -------- */
 // Récupération des éléments du footer
 const footer = document.getElementById('footer');
-const citations = document.getElementById('citation')
+const citation = document.getElementById('citation')
 
 // 💡 Citations financières aléatoires
 const citations = [
@@ -15,7 +15,7 @@ const citations = [
 
 // 🎯 Afficher une citation aléatoire au clic sur le bouton
 citationBtn.addEventListener('click', () => {
-  const randomQuote = citations[Math.floor(Math.random() * citations.length)];
+  const randomQuote = citations[Math.floor(Math.random() * citation.length)];
   alert(randomQuote);
 });
 /* -------- FOOTER -------- */
