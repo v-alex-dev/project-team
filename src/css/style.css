@@ -2,6 +2,9 @@
   box-sizing: border-box;
   
 }
+body{
+  margin:0;
+}
 header{
   border: 1px;
   background: rgb(255, 255, 255);
@@ -13,24 +16,38 @@ header{
 img{
   width: 200px;
   height: 200px;
-  border: 10px solid rgb(14, 3, 47);
+  border-radius:1rem;
 }
-border{
+.header{
   border-width: 3px;
-  border-style: dashed;
+  border-style: solid;
   border-color: rgb(4, 4, 47);
+  padding: 1rem;
 }
 a{
   color: rgb(22, 5, 48);
-  padding-left: 15%;
+  text-align: center;
   border: 1px;
   margin-block-end: 1px;
+  text-decoration: none;
 
+
+}
+nav{
+ 
+  display:grid;
+  gap:1rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .title{
   color: rgb(7, 2, 23);
-  font-size: 30px;
+  font-size: 50px;
   
 
 
+}
+.logo{
+  display:grid;
+  align-items: center;
+  grid-template-columns: 0.5fr 1fr;
 }
