@@ -1,6 +1,56 @@
 *, *::before, *::after {
   box-sizing: border-box;
+  
+}
+body{
+  margin:0;
+}
+header{
+  border: 1px;
+  background: rgb(255, 255, 255);
+  font-family: 'Times New Roman', Times, serif;
+  color: aliceblue;
+  align-items: center;
+  
+}
+img{
+  width: 200px;
+  height: 200px;
+  border-radius:1rem;
+}
+.header{
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(4, 4, 47);
+  padding: 1rem;
+}
+a{
+  color: rgb(22, 5, 48);
+  text-align: center;
+  border: 1px;
+  margin-block-end: 1px;
+  text-decoration: none;
 
+
+}
+nav{
+ 
+  display:grid;
+  gap:1rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.title{
+  color: rgb(7, 2, 23);
+  font-size: 50px;
+  
+
+
+}
+
+.logo{
+  display:grid;
+  align-items: center;
+  grid-template-columns: 0.5fr 1fr;
 }
 :root{
   --background-color-body: #09213ad7;
@@ -163,3 +213,4 @@ button:active {
 }
 
 /* -------- FOOTER -------- */
+
