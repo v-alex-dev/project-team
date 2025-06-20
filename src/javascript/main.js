@@ -1,7 +1,7 @@
 /* -------- FOOTER -------- */
 // Récupération des éléments du footer
 const footer = document.getElementById('footer');
-const citationBtn = document.getElementById('citation')
+const citations = document.getElementById('citation')
 
 // 💡 Citations financières aléatoires
 const citations = [
