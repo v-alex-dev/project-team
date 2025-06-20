@@ -2,3 +2,51 @@
   box-sizing: border-box;
 
 }
+
+.footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #0d1b2a;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.footer a {
+  color: #4fc3f7;
+  text-decoration: none;
+  margin: 0 5px;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #ffffff;
+}
+
+.footer hr {
+  width: 80%;
+  margin: 20px auto;
+  border: 0;
+  border-top: 1px solid #4fc3f7;
+  animation: slideIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
+}
