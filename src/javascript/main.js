@@ -1,5 +1,7 @@
-// Récupération du footer
+/* -------- FOOTER -------- */
+// Récupération des éléments du footer
 const footer = document.getElementById('footer');
+const citationBtn = document.getElementById('citation')
 
 // 💡 Citations financières aléatoires
 const citations = [
@@ -10,19 +12,10 @@ const citations = [
   "📊 Les marchés sont faits d’opportunités, pas de certitudes."
 ];
 
-// 🎯 Afficher une citation aléatoire au clic sur le footer
-footer.addEventListener('click', () => {
+
+// 🎯 Afficher une citation aléatoire au clic sur le bouton
+citationBtn.addEventListener('click', () => {
   const randomQuote = citations[Math.floor(Math.random() * citations.length)];
   alert(randomQuote);
 });
-
-// 🎨 Animation légère au survol
-footer.addEventListener('mouseenter', () => {
-  footer.style.transition = 'all 0.3s ease';
-  footer.style.backgroundColor = '#1c1c1c';
-  footer.style.color = '#4fc3f7';
-});
-footer.addEventListener('mouseleave', () => {
-  footer.style.backgroundColor = '';
-  footer.style.color = '';
-});
+/* -------- FOOTER -------- */
