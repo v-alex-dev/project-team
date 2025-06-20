@@ -1,4 +1,36 @@
 *, *::before, *::after {
   box-sizing: border-box;
+  
+}
+header{
+  border: 1px;
+  background: rgb(255, 255, 255);
+  font-family: 'Times New Roman', Times, serif;
+  color: aliceblue;
+  align-items: center;
+  
+}
+img{
+  width: 200px;
+  height: 200px;
+  border: 10px solid rgb(14, 3, 47);
+}
+border{
+  border-width: 3px;
+  border-style: dashed;
+  border-color: rgb(4, 4, 47);
+}
+a{
+  color: rgb(22, 5, 48);
+  padding-left: 15%;
+  border: 1px;
+  margin-block-end: 1px;
+
+}
+.title{
+  color: rgb(7, 2, 23);
+  font-size: 30px;
+  
+
 
 }
