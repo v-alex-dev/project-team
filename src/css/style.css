@@ -24,13 +24,13 @@ img{
   border-color: rgb(4, 4, 47);
   padding: 1rem;
 }
-a{
+
+nav a{
   color: rgb(22, 5, 48);
   text-align: center;
   border: 1px;
   margin-block-end: 1px;
   text-decoration: none;
-
 
 }
 nav{
